@@ -1,0 +1,4 @@
+1、从宿主机拷贝文件到容器：
+docker cp /opt/test.sh adf4rfg:/opt/video/
+2、从容器中拷贝文件到宿主机：(并进行了重命名)
+docker cp adf4rfg:/opt/video/test.sh /opt/test1.sh
